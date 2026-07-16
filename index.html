@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voltaix Wiki - Minecraft 1.21.1 NeoForge</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>VOLTAIX</h1>
+    <p>Technology & Energy Mod for Minecraft 1.21.1 - NeoForge</p>
+    <p>Author: TrueJustNeon</p>
+</header>
+
+<nav>
+    <a class="active" data-tab="home">Home</a>
+    <a data-tab="install">Installation</a>
+    <a data-tab="blocks">Blocks</a>
+    <a data-tab="items">Items</a>
+    <a data-tab="debug">Debug</a>
+</nav>
+
+<div class="container">
+
+    <div id="home" class="tab active card">
+        <h2>About Voltaix</h2>
+        <p><b>Voltaix</b> is a technology and energy-focused mod for Minecraft 1.21.1 on NeoForge. It adds new ores, materials, and machines to automate your world.</p>
+        <h3>Core Features</h3>
+        <ul>
+            <li>New ore generation: <code>Voltaix Ore</code></li>
+            <li>Custom energy system: Coal Generator & Solar Panels</li>
+            <li>Automation machines</li>
+            <li>Upgraded tools and circuits</li>
+        </ul>
+    </div>
+
+    <div id="install" class="tab card">
+        <h2>Installation Guide</h2>
+        <h3>Requirements</h3>
+        <ul>
+            <li>Minecraft 1.21.1</li>
+            <li>NeoForge 21.1.x</li>
+            <li>Java 21</li>
+        </ul>
+        <h3>Steps</h3>
+        <ol>
+            <li>Install NeoForge 1.21.1</li>
+            <li>Go to <code>Modrinth.com</code> and search the mod.</li>
+            <li>Download <code>voltaix-x.x.x.jar</code></li>
+            <li>Place the file in your <code>/mods</code> folder</li>
+            <li>Launch the game and the mod should be ready for use.</li>
+        </ol>
+    </div>
+
+    <div id="blocks" class="tab card">
+        <h2>Blocks</h2>
+        <div id="blocks-grid" class="grid"></div>
+    </div>
+
+    <div id="items" class="tab card">
+        <h2>Items</h2>
+        <div id="items-grid" class="grid"></div>
+    </div>
+
+    <div id="debug" class="tab card">
+        <h2>Debug & Commands</h2>
+        <p>Useful commands for testing and getting items quickly.</p>
+        
+        <h3>/give Command</h3>
+        <pre id="give-commands"></pre>
+
+        <h3>Block & Item IDs</h3>
+        <table id="id-table">
+            <tr><th>Icon</th><th>Name</th><th>Type</th><th>Registry ID</th></tr>
+        </table>
+    </div>
+
+</div>
+
+<footer>
+    Voltaix Wiki v1.0.0 | Minecraft 1.21.1 NeoForge | Package: com.TrueJustNeon.mods
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
