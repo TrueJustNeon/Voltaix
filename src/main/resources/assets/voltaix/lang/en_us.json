@@ -1,13 +1,3 @@
 {
-  "itemGroup.voltaix": "Example Mod Tab",
-  "block.voltaix.example_block": "Example Block",
-  "item.voltaix.example_item": "Example Item",
-
-  "voltaix.configuration.title": "Voltaix Configs",
-  "voltaix.configuration.section.voltaix.common.toml": "Voltaix Configs",
-  "voltaix.configuration.section.voltaix.common.toml.title": "Voltaix Configs",
-  "voltaix.configuration.items": "Item List",
-  "voltaix.configuration.logDirtBlock": "Log Dirt Block",
-  "voltaix.configuration.magicNumberIntroduction": "Magic Number Text",
-  "voltaix.configuration.magicNumber": "Magic Number"
+  "block.voltaix.coal_generator": "Coal Generator"
 }
