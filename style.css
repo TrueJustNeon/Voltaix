@@ -180,27 +180,29 @@ body {
     position: relative;
     width: 64px;
     height: 64px;
+    min-width: 64px;
     flex-shrink: 0;
+}
+
+.item-slot,
+.item-texture {
+    position: absolute;
     image-rendering: pixelated;
+    object-fit: contain;
 }
 
 .item-slot {
-    position: absolute;
     width: 64px;
     height: 64px;
     top: 0;
     left: 0;
-    image-rendering: pixelated;
 }
 
 .item-texture {
-    position: absolute;
     width: 48px;
     height: 48px;
     top: 8px;
     left: 8px;
-    object-fit: contain;
-    image-rendering: pixelated;
 }
 
 .item-content h4 {
