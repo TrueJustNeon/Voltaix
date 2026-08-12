@@ -218,12 +218,28 @@ body {
 
 .tag {
     display: inline-block;
-    background: rgba(255, 255, 255, 0.08);
-    padding: 0.2rem 0.6rem;
-    border-radius: 3px; /* Removed 999px pill shape */
+
+    background-image: url("assets/gui/tag.png");
+    background-repeat: repeat-x;
+    background-size: auto 20px;
+
+    height: 20px;
+    line-height: 20px;
+
+    padding: 0 8px;
+
+    color: var(--text);
     font-size: 0.8rem;
+    white-space: nowrap;
+
+    border: none;
+    border-radius: 0;
+
     margin-top: 0.5rem;
     margin-right: 0.35rem;
+
+    image-rendering: pixelated;
+    box-sizing: border-box;
 }
 
 .search-bar {
