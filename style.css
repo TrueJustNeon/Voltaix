@@ -177,12 +177,28 @@ body {
 }
 
 .item-icon {
+    position: relative;
     width: 64px;
     height: 64px;
-    background: #2b2b2b;
-    border: 1px solid var(--border);
-    border-radius: 4px; /* Tightened from 10px */
     flex-shrink: 0;
+    image-rendering: pixelated;
+}
+
+.item-slot {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    image-rendering: pixelated;
+}
+
+.item-texture {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 8px;
+    left: 8px;
     object-fit: contain;
     image-rendering: pixelated;
 }
