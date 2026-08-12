@@ -27,11 +27,11 @@ const BLOCKS = [
 
 const ITEMS = [
     {
-        id: "portable_battery",
-        name: "Portable Battery",
+        id: "potato_battery",
+        name: "Potato Battery",
         desc: "Your all time trust buddy.",
         tags: ["Battery", "Capacity: 5000 Fe"],
-        icon: "assets/items/portable_battery.png"
+        icon: "assets/items/potato_battery.png"
     },
     {
         id: "coal_dust",
