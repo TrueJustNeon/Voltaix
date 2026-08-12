@@ -48,13 +48,6 @@ const ITEMS = [
         icon: "assets/items/sulfur_dust.png"
     },
     {
-        id: "sulfur_crystal",
-        name: "Sulfur Crystal",
-        desc: "Crystal that provides sulfur dust if crushed.",
-        tags: ["Component"],
-        icon: "assets/items/sulfur_crystal.png"
-    },
-    {
         id: "rubber",
         name: "Rubber",
         desc: "Material used to craft components.",
@@ -62,11 +55,11 @@ const ITEMS = [
         icon: "assets/items/rubber.png"
     },
     {
-        id: "latex",
-        name: "Latex",
-        desc: "Cook to obtain rubber.",
+        id: "latex_bucket",
+        name: "Latex Bucket",
+        desc: "Heat up to obtain rubber.",
         tags: ["Alloy"],
-        icon: "assets/items/latex.png"
+        icon: "assets/items/latex_bucket.png"
     },
     {
         id: "sap",
