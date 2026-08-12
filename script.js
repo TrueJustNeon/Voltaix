@@ -58,15 +58,15 @@ const ITEMS = [
         id: "latex_bucket",
         name: "Latex Bucket",
         desc: "Heat up to obtain rubber.",
-        tags: ["Alloy"],
+        tags: ["Alloy", "Fluid"],
         icon: "assets/items/latex_bucket.png"
     },
     {
-        id: "sap",
-        name: "Sap",
+        id: "sap_bucket",
+        name: "Sap Bucket",
         desc: "Mix with sulfur dust to obtain latex.",
-        tags: ["Component"],
-        icon: "assets/items/sap.png"
+        tags: ["Component", "Fluid"],
+        icon: "assets/items/sap_bucket.png"
     },
     {
         id: "steel_ingot",
