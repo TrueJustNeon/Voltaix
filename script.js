@@ -176,14 +176,18 @@ function createItemElement(data, type) {
     const tagsHtml = data.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
     
     div.innerHTML = `
-        <img src="${data.icon}" alt="${data.name}" class="item-icon">
-        <div class="item-content">
-            <h4>${data.name}</h4>
-            <p>${data.desc}</p>
-            <span class="tag">ID: ${NAMESPACE}:${data.id}</span>
-            ${tagsHtml}
-        </div>
-    `;
+    <div class="item-icon">
+        <img src="assets/gui/slot.png" class="item-slot" alt="">
+        <img src="${data.icon}" alt="${data.name}" class="item-texture">
+    </div>
+
+    <div class="item-content">
+        <h4>${data.name}</h4>
+        <p>${data.desc}</p>
+        <span class="tag">ID: ${NAMESPACE}:${data.id}</span>
+        ${tagsHtml}
+    </div>
+`;
     
     return div;
 }
