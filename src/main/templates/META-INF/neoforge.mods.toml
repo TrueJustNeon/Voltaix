@@ -46,7 +46,7 @@ authors="TrueJustNeon"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A mod that adds vary technological blocks to automate (almost) everything in the game.
+Voltaix is a technology and energy-focused mod for Minecraft 1.21.1 on NeoForge. It adds new ores, materials, and machines to automate your world.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
@@ -57,8 +57,6 @@ A mod that adds vary technological blocks to automate (almost) everything in the
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
 #[[accessTransformers]]
 #file="META-INF/accesstransformer.cfg"
-
-# The coremods config file path is not configurable and is always loaded from META-INF/coremods.json
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.${mod_id}]] #optional
