@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltaix Wiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <h1>VOLTAIX</h1>
+            <p class="eyebrow">NeoForge · Minecraft 1.21.1</p>
+            <div class="hero__content">
+                <p class="hero__subtitle">A technology and energy-focused mod for Minecraft, built around automation, power systems, and progression.</p>
+                <div class="hero__badges">
+                    <!-- pongo esto por si te gusta la idea (por ahora no) -->
+                     <span>astetik</span>
+                     <span>neon no me mates</span>
+                     <span>migu</span>
+                </div>
+            </div>
+        </header>
+
+        <nav class="top-nav">
+            <a class="active" data-tab="home">Home</a>
+            <a data-tab="install">Installation</a>
+            <a data-tab="blocks">Blocks</a>
+            <a data-tab="items">Items</a>
+            <a data-tab="debug">Debug</a>
+        </nav>
+
+        <main class="content">
+                <section id="home" class="tab active card">
+                    <h2 id="overview">About Voltaix</h2>
+                    <p><strong>Voltaix</strong> is a technology and energy-focused mod for Minecraft 1.21.1 on NeoForge. It adds new ores, materials, and machines to automate your world.</p>
+                    <h3>What you will find here</h3>
+                    <ul>
+                        <li>Installation instructions for setting up the mod</li>
+                        <li>A catalog of blocks and items with IDs and descriptions</li>
+                        <li>Useful debug commands for testing and development</li>
+                    </ul>
+                </section>
+
+                <section id="install" class="tab card">
+                    <h2 id="requirements">Installation Guide</h2>
+                    <h3>Requirements</h3>
+                    <ul>
+                        <li>Minecraft 1.21.1</li>
+                        <li>NeoForge 21.1.x</li>
+                        <li>Java 21</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Install NeoForge 1.21.1</li>
+                        <li>Visit <code>Modrinth.com</code> and search for Voltaix</li>
+                        <li>Download <code>voltaix-x.x.x.jar</code></li>
+                        <li>Place the file in your <code>/mods</code> folder</li>
+                        <li>Launch the game and the mod will be ready to use</li>
+                    </ol>
+                </section>
+
+                <section id="blocks" class="tab card">
+                    <h2 id="block-list">Blocks</h2>
+                    <input type="text" class="search-bar" placeholder="Search blocks...">
+                    <div id="blocks-grid" class="grid"></div>
+                </section>
+
+                <section id="items" class="tab card">
+                    <h2 id="item-list">Items</h2>
+                    <input type="text" class="search-bar" placeholder="Search items...">
+                    <div id="items-grid" class="grid"></div>
+                </section>
+
+                <section id="debug" class="tab card">
+                    <h2 id="debug-commands">Debug &amp; Commands</h2>
+                    <p>Useful commands for testing and getting items quickly.</p>
+
+                    <h3>/give Command</h3>
+                    <pre id="give-commands"></pre>
+
+                    <h3>Block &amp; Item IDs</h3>
+                    <table id="id-table">
+                        <tr>
+                            <th>Icon</th>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Registry ID</th>
+                        </tr>
+                    </table>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+            Voltaix Wiki v1.0.2 · By startercharacter_ & Neon
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
