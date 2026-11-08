@@ -19,6 +19,6 @@ public class Voltaix {
         ModTabs.TABS.register(modEventBus);
     }
     
-    private void CommonSetup(FMLCommonSetupEvent event) {
+    private void commonSetup(FMLCommonSetupEvent event) {
     }
 }
