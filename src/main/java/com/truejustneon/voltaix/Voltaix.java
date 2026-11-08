@@ -9,7 +9,7 @@ public class Voltaix {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "voltaix";
 
-    public Voltaix(IEventBus modEventBus, ModContainer, modContainer) {
+    public Voltaix(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
