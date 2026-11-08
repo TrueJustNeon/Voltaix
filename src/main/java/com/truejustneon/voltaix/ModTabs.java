@@ -5,6 +5,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.minecraft.world.item.ItemStack;
 
 public class ModTabs {
     public static final DeferredRegister<CreativeModeTab> TABS =
@@ -13,10 +14,10 @@ public class ModTabs {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN =
     TABS.register("main", () -> CreativeModeTab.builder()
         .title(Component.translatable("itemGroup.voltaix"))
-        .icon(() -> ModItems.POTATO_BATTERY.get().getDefaultInstance())
+        .icon(() -> new ItemStack(ModItems.POTATO_BATTERY.get(), 1))
         .displayItems((params, output) -> {
             output.accept(ModItems.POTATO_BATTERY.get());
-            output.accept(ModBlocks.BASIC_SOLAR_PANEL.get());
+            output.accept(ModItems.BASIC_SOLAR_PANEL_ITEM.get());
         })
     .build());
 }

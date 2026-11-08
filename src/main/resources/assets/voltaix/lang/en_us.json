@@ -1,13 +1,5 @@
 {
-  "itemGroup.voltaix": "Example Mod Tab",
-  "block.voltaix.example_block": "Example Block",
-  "item.voltaix.example_item": "Example Item",
-
-  "voltaix.configuration.title": "Voltaix Configs",
-  "voltaix.configuration.section.voltaix.common.toml": "Voltaix Configs",
-  "voltaix.configuration.section.voltaix.common.toml.title": "Voltaix Configs",
-  "voltaix.configuration.items": "Item List",
-  "voltaix.configuration.logDirtBlock": "Log Dirt Block",
-  "voltaix.configuration.magicNumberIntroduction": "Magic Number Text",
-  "voltaix.configuration.magicNumber": "Magic Number"
+  "itemGroup.voltaix": "Voltaix",
+  "block.voltaix.basic_solar_panel": "Basic Solar Panel",
+  "item.voltaix.potato_battery": "Potato Battery"
 }
