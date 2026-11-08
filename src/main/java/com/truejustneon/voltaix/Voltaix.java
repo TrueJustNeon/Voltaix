@@ -1,4 +1,7 @@
 package com.truejustneon.voltaix;
+import com.truejustneon.voltaix.ModBlocks;
+import com.truejustneon.voltaix.ModItems;
+import com.truejustneon.voltaix.ModTabs;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.bus.api.IEventBus;
