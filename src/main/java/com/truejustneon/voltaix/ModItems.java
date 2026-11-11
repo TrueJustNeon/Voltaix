@@ -1,5 +1,6 @@
 package com.truejustneon.voltaix;
 
+import com.truejustneon.voltaix.items.PotatoBatteryItem;
 import com.truejustneon.voltaix.ModBlocks;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
@@ -10,8 +11,8 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS =
     DeferredRegister.createItems(Voltaix.MODID);
 
-    public static final DeferredItem<Item> POTATO_BATTERY = 
-    ITEMS.registerSimpleItem("potato_battery", new Item.Properties().stacksTo(1));
+    public static final DeferredItem<PotatoBatteryItem> POTATO_BATTERY = 
+    ITEMS.register("potato_battery", () -> new PotatoBatteryItem(new Item.Properties()));
 
     public static final DeferredItem<BlockItem> BASIC_SOLAR_PANEL_ITEM =
     ITEMS.registerSimpleBlockItem(
