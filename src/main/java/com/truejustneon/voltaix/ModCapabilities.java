@@ -21,14 +21,4 @@ public static void registerCaps(RegisterCapabilitiesEvent event) {
     (stack, context) -> new StackEnergyStorage(stack, PotatoBatteryItem.CAPACITY, 500),
     ModItems.POTATO_BATTERY.get());
 }
-/*
-@Override
-public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
-    ItemStack stack = player.getItemInHand(hand);
-    IEnergyStorage energy = stack.getCapability(Capabilities.EnergyStorage.ITEM);
-    if (energy != null && energy.extractEnergy(100, false) >= 100) {
-        return InteractionResultHolder.sidedSuccess(stack, level.IsClientSide);
-    }
-    return InteractionResultHolder.fail(stack);
-} */
 }

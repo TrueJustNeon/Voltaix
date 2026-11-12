@@ -16,8 +16,7 @@ public class ModTabs {
         .title(Component.translatable("itemGroup.voltaix"))
         .icon(() -> new ItemStack(ModItems.POTATO_BATTERY.get(), 1))
         .displayItems((params, output) -> {
-            output.accept(ModItems.POTATO_BATTERY.get());
-            output.accept(ModItems.BASIC_SOLAR_PANEL_ITEM.get());
+            ModItems.ITEMS.getEntries().forEach(item -> output.accept(item.get()));
         })
     .build());
 }

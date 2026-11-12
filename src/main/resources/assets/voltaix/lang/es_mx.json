@@ -1,0 +1,21 @@
+{
+  "itemGroup.voltaix": "Voltaix",
+
+  "block.voltaix.basic_solar_panel": "Panel Solar Basico",
+
+  "item.voltaix.potato_battery": "Paperia",
+  "item.voltaix.advanced_chip": "Chip Avanzado",
+  "item.voltaix.basic_chip": "Chip Basico",
+
+  "item.voltaix.coal_dust": "Carbón en polvo",
+  "item.voltaix.sulfur_dust": "Polvo de azufre",
+
+  "item.voltaix.copper_plate": "Lámina de cobre",
+  "item.voltaix.iron_plate": "Lámina de hierro",
+  "item.voltaix.gold_plate": "Lámina de oro",
+
+  "item.voltaix.steel_ingot": "Lingote de acero",
+
+  "item.voltaix.rubber": "Goma",
+  "item.voltaix.solar_panel": "Panel Solar"
+}

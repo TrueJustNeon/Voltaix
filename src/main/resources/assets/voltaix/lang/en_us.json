@@ -1,5 +1,21 @@
 {
   "itemGroup.voltaix": "Voltaix",
+
   "block.voltaix.basic_solar_panel": "Basic Solar Panel",
-  "item.voltaix.potato_battery": "Potato Battery"
+
+  "item.voltaix.potato_battery": "Potato Battery",
+  "item.voltaix.advanced_chip": "Advanced Chip",
+  "item.voltaix.basic_chip": "Basic Chip",
+
+  "item.voltaix.coal_dust": "Coal Dust",
+  "item.voltaix.sulfur_dust": "Sulfur Dust",
+
+  "item.voltaix.copper_plate": "Copper Plate",
+  "item.voltaix.iron_plate": "Iron Plate",
+  "item.voltaix.gold_plate": "Gold Plate",
+
+  "item.voltaix.steel_ingot": "Steel Ingot",
+
+  "item.voltaix.rubber": "Rubber",
+  "item.voltaix.solar_panel": "Solar Panel"
 }
