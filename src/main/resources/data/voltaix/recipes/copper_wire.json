@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+              "RRR",
+              "CCC",
+              "RRR"
+    ],
+  "key": { 
+    "R": { "item": "voltaix:rubber" },
+    "C": { "item": "voltaix:copper_plate" }
+},
+  "result": { "id": "voltaix:basic_solar_panel", "count": 6 }
+}

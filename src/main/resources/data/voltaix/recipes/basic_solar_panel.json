@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+              "SSS",
+              "IBI",
+              "III"
+    ],
+  "key": { 
+    "S": { "item": "voltaix:solar_panel" },
+    "I": { "item": "voltaix:iron_plate" },
+    "B": { "item": "voltaix:basic_chip" } 
+},
+  "result": { "id": "voltaix:basic_solar_panel", "count": 1 }
+}

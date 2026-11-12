@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "voltaix:coal_dust"
+    },
+    {
+      "item": "voltaix:coal_dust"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "id": "voltaix:steel_ingot",
+    "count": 1
+  }
+}

@@ -44,4 +44,7 @@ public class ModItems {
     public static final DeferredItem<BlockItem> BASIC_SOLAR_PANEL_ITEM =
     ITEMS.registerSimpleBlockItem("basic_solar_panel", ModBlocks.BASIC_SOLAR_PANEL);
     
+    public static final DeferredItem<BlockItem> COPPER_WIRE_ITEM =
+    ITEMS.registerSimpleBlockItem("copper_wire", ModBlocks.COPPER_WIRE);
+    
 }

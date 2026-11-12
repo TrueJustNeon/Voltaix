@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+              "GGG",
+              "EDE",
+              "RRR"
+    ],
+  "key": { 
+    "R": { "item": "voltaix:rubber" },
+    "E": { "item": "minecraft:redstone_dust" },
+    "D": { "item": "minecraft:diamond" },
+    "G": { "item": "minecraft:glass_pane" }
+},
+  "result": { "id": "voltaix:solar_panel", "count": 1 }
+}

@@ -2,6 +2,7 @@ package com.truejustneon.voltaix;
 
 import net.minecraft.world.level.block.Block;
 import com.truejustneon.voltaix.blocks.BasicSolarPanelBlockType;
+import com.truejustneon.voltaix.blocks.CopperWireBlockType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -14,5 +15,12 @@ public class ModBlocks {
     BLOCKS.register("basic_solar_panel",
     () -> new BasicSolarPanelBlockType(BlockBehaviour.Properties.of()
     .strength(3.0f, 6.0f)
+    .requiresCorrectToolForDrops()));
+    
+    public static final DeferredBlock<Block> COPPER_WIRE =
+    BLOCKS.register("copper_wire",
+    () -> new CopperWireBlockType(BlockBehaviour.Properties.of()
+    .strength(3.0f, 6.0f)
+    .noOcclusion()
     .requiresCorrectToolForDrops()));
 }
