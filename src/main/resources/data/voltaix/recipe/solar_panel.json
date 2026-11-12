@@ -8,7 +8,7 @@
     ],
   "key": { 
     "R": { "item": "voltaix:rubber" },
-    "E": { "item": "minecraft:redstone_dust" },
+    "E": { "item": "minecraft:redstone" },
     "D": { "item": "minecraft:diamond" },
     "G": { "item": "minecraft:glass_pane" }
 },

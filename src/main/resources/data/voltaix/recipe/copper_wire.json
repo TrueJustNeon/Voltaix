@@ -10,5 +10,5 @@
     "R": { "item": "voltaix:rubber" },
     "C": { "item": "voltaix:copper_plate" }
 },
-  "result": { "id": "voltaix:basic_solar_panel", "count": 6 }
+  "result": { "id": "voltaix:copper_wire", "count": 6 }
 }
