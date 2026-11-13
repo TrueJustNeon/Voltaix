@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:basic_solar_panel",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{ "type": "minecraft:item", "name": "voltaix:basic_solar_panel" }],
+    "conditions": [{ "condition": "minecraft:survives_explosion" }]
+  }]
+}

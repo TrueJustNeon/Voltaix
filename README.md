@@ -6,6 +6,6 @@ v1.2.3
 2 -> Minor
 3 -> Hotfix
 
-currently 0.0.01 [Beta]
+currently 1.0.0 [Beta]
 
 Old style technology mod by TrueJustNeon
